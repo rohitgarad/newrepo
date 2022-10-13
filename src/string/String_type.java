@@ -28,6 +28,7 @@ public class String_type {
 	    System.out.println(rr.trim());
 	    System.out.println(s.hashCode());
 	    System.out.println(r.replace("bhanji", "garad"));
+	    System.out.println(s.length());
 	}
 
 }

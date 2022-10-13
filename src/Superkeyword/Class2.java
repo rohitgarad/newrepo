@@ -15,6 +15,7 @@ public class Class2 extends Class1 {
     	   System.out.println(b);                                    // instant variable to class2
        }
        
+       
        void Rohit() {                          // child class method 2
     	   int g = 100, h = 150;
     	   String j = "child class method1";
@@ -45,6 +46,7 @@ public class Class2 extends Class1 {
         	super("rohit",5);
         	System.out.println("child class constructor 3");
         }
+        
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Class2 L = new Class2();
@@ -53,6 +55,8 @@ public class Class2 extends Class1 {
 		N.parent();
 		N.Rohit();
 		N.Rohit("child");
+		System.out.println(M.a);
+	
 		
 	}
 
